@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.maxwidth {
+  width: 80vw;
+}
+.m-auto {
+  margin: auto;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.mtop {
+  margin-top: 40px;
+}

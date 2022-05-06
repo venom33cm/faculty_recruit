@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="login-form-wrap">
+    <h2>Register</h2>
+    <form id="login-form" onsubmit="register()">
+      <p></p>
+      <input type="text" id="username" name="username" placeholder="Username" required /><i
+        class="validation"><span></span><span></span></i>
+      </p>
+      <input type="text" id="email" name="email" placeholder="email" required /><i
+        class="validation"><span></span><span></span></i>
+      </p>
+      <p>
+        <input type="password" id="password" name="password" placeholder="Password" required /><i
+          class="validation"><span></span><span></span></i>
+      </p>
+      <p>
+        <input type="submit" id="login" value="Register" />
+      </p>
+    </form>
+    <div id="create-account-wrap">
+      <p> registered? <a href="login.html">Login</a></p>
+      <p></p>
+    </div>
+
+    <!--create-account-wrap-->
+  </div>
+  <!--login-form-wrap-->
+
+  <script>
+
+    let id = 1;
+    const registerdata = [];
+    function register() {
+      console.log("hello")
+      const username = document.getElementById("username").value;
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+      if (email.indexOf("@") == -1) {
+        alert("Please enter a valid email id");
+        return
+      }
+      console.log(username)
+      const data = {
+        id: id++,
+        username: username,
+        email: email,
+        password: password
+      }
+      registerdata.push(data);
+      console.log(data)
+      alert("registered successfully");
+    }
+
+
+  </script>
+
+</body>
+
+</html>

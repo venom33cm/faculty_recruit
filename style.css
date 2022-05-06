@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhai+2:wght@500&family=Roboto:ital,wght@0,300;1,400&display=swap");
+nav ul li {
+  list-style: none;
+  padding: 0 20px;
+  font-family: "Baloo Bhai 2", cursive;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.logo {
+  margin-right: 100px;
+}
+.logo h4 {
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1.5rem;
+  color: white;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: #88ba0e;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  color: #88ba0e;
+}
+
+.left {
+  /* justify-content: space-between */
+  margin-left: 20px;
+  flex: 0.2;
+}
+
+.right {
+  margin-right: 20px;
+  flex: 0.8;
+}
+
+.right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right ul li {
+  margin: 0 75px;
+}
+
+.active {
+  color: #88ba0e;
+}
+.navigation {
+  justify-content: space-between;
+  height: 35px;
+  /* background-color: black; */
+  /* opacity: 0.7; */
+}
+
+.right input {
+  margin: 5px 0;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.right button {
+  padding: 3px 5px;
+  background: #88ba0e;
+  color: white;
+  font-family: "Baloo Bhai 2", cursive;
+  border-radius: 5px;
+  border: none;
+}
+
+.right button:hover {
+  cursor: pointer;
+  background: #b4ed23;
+}
+
+.main {
+  height: 95vh;
+  /*background: url("https://i2.wp.com/www.foodaholics.nl/wp-content/uploads/2018/12/tostada-zalm-1.jpg?resize=520%2C400&ssl=1");*/
+  background: url("https://www.spjain.org/hs-fs/hubfs/images/2019/org/landing-page-banner/Faculty-Recruitment-Process-FAQs.jpg?width=1920&height=500&name=Faculty-Recruitment-Process-FAQs.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.9; */
+}
+
+.header h1 {
+  padding: 25px;
+  font-weight: bolder;
+  color: white;
+}
+
+.header h2 {
+  padding: 15px;
+  font-weight: bolder;
+  color: white;
+}
+.header {
+  height: 100%;
+  font-family: Roboto;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: black; */
+  /* opacity: 0.4; */
+}
+
+.header button {
+  background-color: #88ba0e;
+
+  /* background-color: #f05930; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 9px;
+  margin-top: 10px;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-family: "Baloo Bhai 2";
+}
+
+.header button:hover {
+  background-color: #b4ed23;
+  cursor: pointer;
+}
+
+button i {
+  margin-left: 5px;
+}
+
+/* ***********************************content styles*********************************************************** */
+
+.content h1 {
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+
+.box {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
+}
+
+.box img {
+  height: 200px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.container {
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.upcomings {
+  background: #f1f5f8;
+  color: black;
+  margin-top: 20px;
+}
+
+.upcomings .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid lightgrey;
+}
+
+.upcomings .left h1 {
+  font-family: "Baloo Bhai 2";
+  text-align: center;
+  margin: 20px;
+}
+
+.upcomings .left ul li {
+  padding: 10px;
+  font-family: "Roboto";
+}
+.upcomings .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upcomings .right img {
+  height: 200px;
+  width: 300px;
+}
+
+.footer {
+  margin-top: 50px;
+  height: 20px;
+  /* width: 1 */
+  color: white;
+  padding: 10px;
+  background: black;
+  text-align: center;
+  /* position: fixed; */
+  bottom: 0;
+}
+
+.logo img {
+  margin-top: 50px;
+  border-radius: 50%;
+  height: 70px;
+}
+
+/* 
+https://purewows3.imgix.net/images/articles/2020_12/LittleBeetTable_healthy-restaurants-nyc.jpg?auto=format,compress&cs=strip */
+
+/* https://thumbs.dreamstime.com/b/scooter-food-delivery-icon-cartoon-style-vector-web-design-isolated-white-background-165155870.jpg */
